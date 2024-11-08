@@ -6,7 +6,7 @@
  * It must not contain the word "password" (case insensitive).
  * Write a function that checks if a password is valid and prints "Valid password"
  * or "Invalid password" based on the rules.
- * Expected output: Valid password: false
+ * Expected output: Valid password: true
  */
 
 public class D_PasswordValidator {

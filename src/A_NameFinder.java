@@ -18,8 +18,15 @@ public class A_NameFinder {
 
     public String findUsername(String email) {
         /* TODO: your code goes here */
+        int atIndex = email.indexOf('@');
+        String username = email.substring(0, atIndex);
 
-        return ""; // this is a temporary return to avoid errors
+        for(int x = 0; x < email.length(); x++){
+            char c = email.charAt(x);
+            System.out.println(c +" "+ Character.isUpperCase(c));
+        }
+
+        return username; // this is a temporary return to avoid errors
     }
 
 }
